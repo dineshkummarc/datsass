@@ -1,0 +1,13 @@
+@if require("btn") {
+
+	.btn {
+		border: 1px solid black;
+		padding: 5px;
+	}
+
+
+	.btn--serious {
+		border-color: red;
+	}
+
+}
