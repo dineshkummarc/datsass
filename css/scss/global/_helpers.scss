@@ -1,18 +1,14 @@
-@if require("helpers") {
+.cf {
 
-	.cf {
+	zoom: 1;
 
-		zoom: 1;
-
-		&:before,
-		&:after {
-			display: table;
-			content: "";
-		}
-
-		&:after {
-			clear: both;
-		}
+	&:before,
+	&:after {
+		display: table;
+		content: "";
 	}
 
+	&:after {
+		clear: both;
+	}
 }
