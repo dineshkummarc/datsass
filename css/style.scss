@@ -1,0 +1,8 @@
+@import "scss/global";
+
+@media (min-width:480px) {
+	@import "scss/480-up/480-up"; }
+@media (min-width:768px) {
+	@import "scss/768-up/768-up"; }
+@media (min-width:1200px) {
+	@import "scss/1200-up/1200-up"; }
